@@ -1,14 +1,17 @@
 #get base image from already published image 
 FROM protectonce/juiceshop:latest
-ENV PO_CLIENTID 'b7d231aa-6269-4327-9ba2-88ca805204df'
-ENV PO_TOKEN 'a44964e9-0f95-4f9c-a686-beb2d1126f72'
+ENV PO_CLIENTID '49f19b20-0d7b-4b4e-81d4-36296a7b2231'
+ENV PO_TOKEN '6fe8d3ac-a164-4d19-af4f-ff53aaf749bc'
 ENV PO_ENDPOINT 'https://api.dev.protectonce.com'
-ENV PO_APP_NAME 'Aug24-1201-herokudepissue'
-ENV PROTECTONCE_WORKLOAD_ID 'Aug24ID-WorkLoad2'
+ENV PO_APP_NAME 'Aug24-1700-herokudepissue'
+ENV PROTECTONCE_WORKLOAD_ID 'Aug25-WorkLoad2'
 ENV PROTECTONCE_DEBUG_LEVEL 'verbose'
 RUN chmod 755 /juice-shop
 WORKDIR /juice-shop
 EXPOSE 3000
+
+
+
 
 
 
