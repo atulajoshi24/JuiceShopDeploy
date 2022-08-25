@@ -6,7 +6,7 @@ ENV PO_ENDPOINT 'https://api.dev.protectonce.com'
 ENV PO_APP_NAME 'Aug24-1700-herokudepissue'
 ENV PROTECTONCE_WORKLOAD_ID 'Aug25-WorkLoad2'
 ENV PROTECTONCE_DEBUG_LEVEL 'verbose'
-RUN chmod 755 /juice-shop
+RUN /bin/sh chmod 755 /juice-shop
 WORKDIR /juice-shop
 EXPOSE 3000
 
